@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Jimmy's Diner</title>
+  </head>
+  <body>
+    <div id="app-wrapper">
+      <header id="header">
+        <h1>Jimmy's Diner</h1>
+        <h2>The best burgers and pizzas in town.</h2>
+      </header>
+      <main id="menu-section">
+        <div id="menu-items"></div>
+        <div class="hidden" id="order-section">
+          <h4 class="your-order-heading">Your Order</h4>
+          <ul id="menu-order"></ul>
+          <div id="order-total-holder"></div>
+          <button id="complete-order-btn">Complete order</button>
+        </div>
+      </main>
+      <div id="modal" class="modal hidden">
+        <p class="modal-heading">Enter Card Details</p>
+        <form id="make-payment-form">
+          <input
+            class="input-field"
+            type="text"
+            name="customerName"
+            placeholder="Enter your name"
+            required
+          />
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Enter card number"
+            minlength="16"
+            maxlength="16"
+            required
+          />
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Enter CVV"
+            maxlength="3"
+            required
+          />
+          <button type="submit" class="pay-btn" id="pay-btn">Pay</button>
+        </form>
+      </div>
+      <div id="thank-you-msg" class="thank-you-msg hidden"></div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
