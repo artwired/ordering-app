@@ -259,3 +259,8 @@ h2 {
 #menu-order li {
   list-style-type: none;
 }
+@media (max-width: 600px) {
+  #header {
+    height: 140px;
+  }
+}
