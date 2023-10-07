@@ -66,7 +66,7 @@ function renderOrderedItems() {
     <li class="ordered-item-text">
       <p>${orderedItem.name}</p>
       <p class="remove-btn" data-remove-item="${orderedItem.uuid}">remove</p>
-      <p class="ordered-item-price-text">${orderedItem.price}</p>
+      <p class="ordered-item-price-text">$${orderedItem.price}</p>
     </li>
     `;
     });
@@ -77,7 +77,7 @@ function renderOrderedItems() {
 function renderTotal() {
   let menuTotal = `
   <p class="total-price-label">Total Price</p>
-  <p class="ordered-items-price-text">${calculateTotal()}</p>
+  <p class="ordered-items-price-text">$${calculateTotal()}</p>
   `;
   orderTotalHolder.innerHTML = menuTotal;
 }
