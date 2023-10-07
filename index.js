@@ -98,7 +98,7 @@ function getMenuFeedHtml() {
                 <div>
                     <div class="menu-item-emoji">${menuItem.emoji}</div>
                 </div>
-                <div class="menu-item-details">   
+                <div class="menu-item-details">
                     <h4 class="menu-item-name">${menuItem.name}</h4>
                     <p class="menu-item-ingredients">${menuItem.ingredients.join(
                       ", "

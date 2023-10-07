@@ -120,6 +120,8 @@ h1 {
   margin: 45px auto;
   align-items: center;
   justify-content: center;
+  padding: 22px;
+  text-align: center;
 }
 
 /* typography */
@@ -276,6 +278,5 @@ h2 {
   .thank-you-msg {
     width: 90%;
     text-align: center;
-    padding: 22px;
   }
 }
