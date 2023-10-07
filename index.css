@@ -180,6 +180,7 @@ h2 {
 .thank-you-msg-txt {
   font-size: 32px;
   color: #065f46;
+  letter-spacing: 0.75px;
 }
 
 /* Buttons and Input */
@@ -274,5 +275,7 @@ h2 {
   }
   .thank-you-msg {
     width: 90%;
+    text-align: center;
+    padding: 22px;
   }
 }
