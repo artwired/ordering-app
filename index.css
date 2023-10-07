@@ -262,6 +262,8 @@ h2 {
 }
 @media (max-width: 600px) {
   #header {
+    max-width: 100%;
+    width: auto;
     height: 140px;
   }
 }
