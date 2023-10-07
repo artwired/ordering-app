@@ -264,6 +264,7 @@ h2 {
   #header {
     max-width: 100%;
     width: auto;
-    height: 140px;
+    height: 200px;
+    margin: 0 auto;
   }
 }
