@@ -44,7 +44,7 @@ h3 {
 }
 #header {
   background: url(/images/header-burger-image.jpg) no-repeat left center;
-  width: 600px;
+  max-width: 600px;
   height: 200px;
 }
 h1,
