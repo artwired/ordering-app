@@ -102,14 +102,14 @@ h1 {
   left: 0;
   right: 0;
   margin: auto;
-  width: 524px;
+  max-width: 524px;
   height: 542px;
   background-color: #fff;
   box-shadow: 0px 0px 100px 100px rgba(0, 0, 0, 0.2);
 }
 .modal-heading {
   margin: 47px auto;
-  width: 300px;
+  max-width: 300px;
   text-align: center;
 }
 .thank-you-msg {
@@ -221,7 +221,8 @@ h2 {
 .input-field {
   display: block;
   margin: 23px auto;
-  width: 475px;
+  max-width: 475px;
+  width: 90%;
   height: 71px;
   border-radius: 4px;
   border: 1px solid #757575;
@@ -236,7 +237,8 @@ h2 {
   border-radius: 4px;
   background: #16db99;
   border: none;
-  width: 475px;
+  max-width: 475px;
+  width: 90%;
   height: 71px;
   display: block;
   margin: 54px auto 0;
@@ -266,5 +268,8 @@ h2 {
       center;
     max-width: 100%;
     width: auto;
+  }
+  .modal {
+    width: 90%;
   }
 }
