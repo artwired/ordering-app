@@ -262,9 +262,9 @@ h2 {
 }
 @media (max-width: 600px) {
   #header {
+    background: url(/images/header-burger-image-mobile.jpg) no-repeat left
+      center;
     max-width: 100%;
     width: auto;
-    height: 200px;
-    margin: 0 auto;
   }
 }
