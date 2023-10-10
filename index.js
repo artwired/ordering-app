@@ -8,6 +8,17 @@ const completeOrderBtn = document.getElementById("complete-order-btn");
 const modal = document.getElementById("modal");
 const makePaymentForm = document.getElementById("make-payment-form");
 const thankYouMsg = document.getElementById("thank-you-msg");
+const creditCardField = document.getElementById("credit-card-field");
+
+creditCardField.addEventListener("keyup", (e) => {
+  if (
+    e.target.value.length === 4 ||
+    e.target.value.length === 9 ||
+    e.target.value.length === 14
+  ) {
+    e.target.value += " ";
+  }
+});
 
 document.addEventListener("click", function (e) {
   if (e.target.dataset.additem) {
