@@ -16,7 +16,7 @@ creditCardField.addEventListener("keyup", (e) => {
     e.target.value.length === 9 ||
     e.target.value.length === 14
   ) {
-    e.target.value += " ";
+    e.target.value += "-";
   }
 });
 
